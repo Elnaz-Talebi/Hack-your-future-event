@@ -1,0 +1,279 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  background-color: rgba(254, 247, 255, 1);
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  padding-left: 13px;
+  padding-top: 13px;
+  margin-right: auto;
+}
+#logobtn {
+  font: Arial;
+  font-size: 15px;
+  font-weight: solid;
+  color: wheat;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid wheat;
+  display: block;
+  box-shadow: 0px 10px 5px wheat;
+}
+
+.nav {
+  align-items: center;
+  justify-content: center;
+}
+.hamberger-bar {
+  display: none;
+  padding: 1.5em;
+  color: white;
+}
+.menu li a {
+  color: white;
+}
+
+header {
+  background-color: rgba(101, 85, 143, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-content: center;
+  color: white;
+
+  h4 {
+    margin-left: auto;
+    padding-right: 1em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-center;
+    flex-wrap: nowrap;
+    background: none;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 1em;
+  }
+}
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3em;
+}
+.about-us {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(232, 222, 248, 1);
+  border-radius: 20px;
+  width: 80%;
+}
+.content-about-us {
+  text-align: justify;
+  margin: 20px;
+  font-size: 16px;
+}
+.picture-about-us {
+  border-radius: 20px;
+  margin: 30px;
+  max-width: 70%;
+  width: 25em;
+  height: 20em;
+}
+
+.event-info {
+  display: flex;
+  background-color: rgba(249, 222, 220, 1);
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3em;
+}
+.event-info-box {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+}
+.picture-event-info {
+  max-width: 70%;
+  border-start-start-radius: 20px;
+  border-end-start-radius: 20px;
+  border-start-end-radius: 0px;
+}
+.text-event-info {
+  text-align: justify;
+  margin: 40px;
+  font-size: 16px;
+}
+.h1-event-info {
+  text-align: left;
+  font-size: 20px;
+}
+.h1-event-intro-day {
+  text-align: left;
+  margin: 40px;
+  font-size: 20px;
+}
+.text-event-intro-day {
+  text-align: left;
+  margin: 40px;
+  font-size: 16px;
+}
+.all-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3em;
+}
+.intro-day-box {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(254, 247, 255, 1);
+  border-radius: 20px;
+  width: 80%;
+}
+
+.picture-intro-day {
+  max-width: 100%;
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
+}
+.intro-day {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(208, 188, 255, 1);
+  border-radius: 20px;
+  margin: 0.5em;
+}
+
+a.button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px outset buttonborder;
+  border-radius: 14px;
+  color: white;
+
+  text-decoration: none;
+  font-size: 16px;
+  span {
+    padding: 35px;
+  }
+}
+.color-button-info {
+  background-color: rgba(49, 17, 29, 1);
+}
+.color-button-event {
+  background-color: rgba(33, 0, 93, 1);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  li {
+    list-style-type: none;
+    padding-bottom: 0.9em;
+  }
+  ul {
+    padding: 0;
+  }
+}
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(101, 85, 143, 1);
+  color: white;
+  font-size: 16px;
+}
+.social-contacts {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(101, 85, 143, 1);
+  border-radius: 50px;
+  margin: 4em;
+  justify-content: space-evenly;
+  gap: 3em;
+  address {
+    font-style: normal;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+  }
+}
+.footer-text {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h4 {
+    display: none;
+  }
+
+  .hamberger-bar {
+    text-align: right;
+    display: block;
+    cursor: pointer;
+  }
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+  .event-info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .picture-event-info {
+    max-width: 100%;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-end-start-radius: 0px;
+  }
+  .intro-day-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-contacts {
+    display: block; /* Removing flex as requested in the task. */
+    section {
+      padding: 1em;
+    }
+  }
+}
