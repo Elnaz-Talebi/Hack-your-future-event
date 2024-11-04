@@ -1,8 +1,6 @@
-
-
 # 🎨 HackYourFuture Event Landing Page
 
-A responsive, mobile-first event landing page built with HTML, CSS, and JavaScript, designed for **HackYourFuture** events. This project showcases semantic HTML structure, CSS Flexbox and Grid layouts, and a clean, scalable design architecture.
+A responsive, mobile-first event landing page built with HTML, CSS, and JavaScript, designed for **HackYourFuture** events. This project showcases semantic HTML structure, CSS Flexbox layout, and a clean, scalable design architecture.
 
 ---
 
@@ -31,12 +29,12 @@ This project demonstrates effective use of HTML5 semantic elements, responsive d
 ### 2. **CSS Styling and Layout**
 
    - **Modular CSS**: Styling is contained in a single CSS file to maintain a clear structure. Each section (e.g., `.about-us`, `.event-info`) has its own set of class-based styles for easy modification.
-   - **Flexbox and Grid**: Layouts are managed through Flexbox for horizontal and vertical alignment. The Grid layout is used in complex areas like the footer.
-   - **Custom Buttons**: Styled buttons (`.color-button-info`, `.color-button-event`) with hover effects, rounded corners, and padding for visual consistency.
+   - **Flexbox**: Layouts are managed through Flexbox for horizontal and vertical alignment. 
+   - **Custom Buttons**: Styled buttons (`.color-button-info`, `.color-button-event`) with rounded corners, and padding for visual consistency.
    - **Responsive Design**: Media queries for screens under 600px width, creating a mobile-friendly experience with a collapsible navigation menu and restructured sections.
 
 ### 3. **Responsive Design Techniques**
-   - **Mobile-First Approach**: Base styles cater to smaller screens, with media queries scaling up for larger devices.
+   - **Responsive Layouts**: The page automatically adjusts to fit screens of all sizes, from mobile to desktop
    - **Hamburger Menu**: A `hamburger-bar` icon is shown on mobile for menu toggling.
    - **Adaptive Layouts**: Content sections (e.g., `.about-us`, `.event-info-box`) adjust between row and column layouts depending on screen size for a consistent user experience.
 
@@ -46,7 +44,7 @@ This project demonstrates effective use of HTML5 semantic elements, responsive d
 
 - **Color Scheme**: A consistent color palette is used across backgrounds, text, and buttons, with soft tones and accent colors to match the theme of the event.
 - **Typography**: The Roboto font from Google Fonts provides a clean, modern look, with font sizes adjusted based on section context.
-- **Box Shadows and Borders**: Used on elements like the logo button and event cards for a polished, professional aesthetic.
+- **Design personalized logo**: a logo is created with CSS and HTML specific for this project.
 
 ---
 
