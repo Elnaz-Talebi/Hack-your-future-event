@@ -10,7 +10,7 @@ This project demonstrates effective use of HTML5 semantic elements, responsive d
 
 ---
 
-🌐 Live Demo
+## 🌐 Live Demo
 Check out the live demo of the project (https://calm-ocean-001299703.5.azurestaticapps.net). Explore the features and functionality in real time!
 
 ---
